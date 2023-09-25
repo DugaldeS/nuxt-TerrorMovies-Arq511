@@ -1,6 +1,7 @@
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
+    target: 'static',
     modules: ['@nuxt/content'],
 		app: {
     head: {
